@@ -39,6 +39,10 @@ module.exports = {
       'error',
       'always'
     ],
-    'react/react-in-jsx-scope': 'off',
+    'comma-dangle': [
+      'error',
+      'never'
+    ],
+    'react/react-in-jsx-scope': 'off'
   }
 };
